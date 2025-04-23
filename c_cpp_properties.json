@@ -1,0 +1,32 @@
+{
+    "configurations": [
+      {
+        "name": "WSL",
+        "includePath": [
+          "${workspaceFolder}/include",
+          "${workspaceFolder}/SDL2/include",  // Include path for SDL2 headers
+          "/usr/include",                     // Standard include path for WSL
+          "/usr/local/include",               // Optional: Custom include path
+          "/usr/include/x86_64-linux-gnu"     // Include path for SDL2 in WSL
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/g++",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64",
+        "browse": {
+          "path": [
+            "${workspaceFolder}/include",
+            "${workspaceFolder}/SDL2/include",
+            "/usr/include",
+            "/usr/local/include",
+            "/usr/include/x86_64-linux-gnu"
+          ],
+          "limitSymbolsToIncludedHeaders": true,
+          "databaseFilename": ""
+        }
+      }
+    ],
+    "version": 4
+  }
+  

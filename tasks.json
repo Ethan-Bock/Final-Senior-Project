@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build",
+        "type": "shell",
+        "command": "wsl",
+        "args": [
+          "g++",
+          "-g",
+          "${workspaceFolder}/src/*.cpp",
+          "-o",
+          "${workspaceFolder}/build/game",
+          "-I",
+          "${workspaceFolder}/SDL2/include",  // SDL2 include path relative to the project
+          "-L",
+          "${workspaceFolder}/SDL2/lib",      // SDL2 lib path relative to the project
+          "-lSDL2",
+          "-lSDL2main"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task for WSL"
+      }
+    ]
+  }

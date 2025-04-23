@@ -1,0 +1,14 @@
+{
+    "achievements": {
+        "By the Skin of Your Teeth": false,
+        "Comeback King": false,
+        "Dominating Victory": false
+    },
+    "statistics": {
+        "Total Wins against AI": 0,
+        "Total number of Games against AI": 0,
+        "Wins against Adaptive AI": 0,
+        "Wins against Aggressive AI": 0,
+        "Wins against Cautious AI": 0
+    }
+}
