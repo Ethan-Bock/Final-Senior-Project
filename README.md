@@ -18,6 +18,7 @@ The game includes a menu system, tutorial mode, and supports game resets, and tr
 ## 🔧 Built With
 - **Language:** C++
 - **Graphics & Input:** [SDL2](https://www.libsdl.org/)
+  - Version Used is: SDL2-devel-2.26.5-VC  
 - **Fonts:** SDL2_ttf
 - **Images:** SDL2_image
 ---
@@ -50,5 +51,3 @@ and to update using the Makefile just call
 ```
 make
 ```
-
-
