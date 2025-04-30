@@ -51,3 +51,5 @@ and to update using the Makefile just call
 ```
 make
 ```
+
+![Zilch_project_photo](https://github.com/user-attachments/assets/84a99212-daf8-4d68-a687-6ac84f536d81)
