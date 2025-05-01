@@ -27,8 +27,8 @@ The game includes a menu system, tutorial mode, and supports game resets, and tr
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/dice-game-sdl2.git
+```
+git clone https://github.com/Ethan-Bock/dice-game-sdl2.git
 cd dice-game-sdl2
 ```
 
